@@ -1,0 +1,240 @@
+body {
+    margin: 0;
+    line-height: normal;
+}
+
+
+.main {
+    background-image: linear-gradient(to left, #0C0A0A, #FFF6F6);
+    position: relative;
+}
+
+.main_inside {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.main_container {
+    display: flex;
+}
+
+.logo {
+    width: 90px;
+    height: 80px;
+    padding-left: 60px;
+}
+
+.acadify {
+    padding-top: 25px;
+    font-size: xx-large;
+    font-family: 'Jacques Francois shadow', cursive;
+
+}
+
+.main_navbar {
+    padding: 35px 80px 0 40px;
+    font-size: larger;
+
+}
+
+.main_navbar a {
+    padding: 30px 25px 0 0;
+    text-decoration: none;
+    color: whitesmoke;
+    transition: 1s;
+}
+.main_navbar a:hover {
+    color: #b8ff46;
+    text-decoration: underline;
+    font-size: x-large;
+}
+.footer {
+    background-color: var(--color-black);
+    width: 100%;
+    height: 433px;
+    padding-left: 0px;
+}
+.logo-2-icon,
+.twitter-icon {
+    position: absolute;
+    top: 123px;
+    left: 1022px;
+    width: 39px;
+    height: 39px;
+    object-fit: cover;
+}
+
+.logo-2-icon {
+    top: 32px;
+    left: 175px;
+    width: 107.68px;
+    height: 90px;
+}
+
+.acadify1,
+.footer-content {
+    position: absolute;
+    display: inline-block;
+}
+
+.acadify1 {
+    top: 47px;
+    left: 283px;
+    font-size: 49.58px;
+    font-family: var(--font-jacques-francois-shadow);
+    width: 281px;
+    height: 60.66px;
+}
+
+.footer-content {
+    top: 150px;
+    left: 175px;
+    font-size: var(--font-size-13xl);
+    width: 441px;
+    height: 82px;
+}
+hr{
+    position: absolute;
+    top: 310px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+}
+
+.call-us,
+.copyright,
+.follow-us,
+.privacy-policy,
+.terms-and-conditions {
+    position: absolute;
+    top: 342px;
+    left: 160px;
+    display: inline-block;
+    width: 499px;
+    height: 29px;
+}
+
+.privacy-policy{
+    left: 941px;
+}
+
+.call-us,
+.follow-us,
+.privacy-policy,
+.terms-and-conditions {
+    
+    width: 161px;
+}
+
+.call-us,
+.follow-us,
+.terms-and-conditions {
+    top: 77px;
+    left: 961px;
+}
+
+.call-us,
+.terms-and-conditions {
+    top: 79px;
+    left: 1131px;
+}
+
+.terms-and-conditions {
+    top: 342px;
+    left: 1115px;
+    width: 233px;
+}
+
+.fb-icon,
+.insta-icon,
+.linkedin-icon {
+    position: absolute;
+    top: 179px;
+    left: 1022px;
+    width: 39px;
+    height: 39px;
+    object-fit: cover;
+}
+
+.fb-icon,
+.insta-icon {
+    left: 961px;
+}
+
+.insta-icon {
+    top: 121px;
+    width: 41px;
+    height: 41px;
+}
+
+.div,
+.div1 {
+    position: absolute;
+    top: 131px;
+    left: 1123px;
+    display: inline-block;
+    width: 146px;
+    height: 37px;
+}
+
+.div1 {
+    top: 154px;
+}
+
+
+ /* Center the form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
+.newform{
+    font-family: var(--font-kaisei-decol);
+    text-align: center;
+}
+  /* Style the labels */
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 18px;
+  }
+  
+  /* Style the form fields */
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Style the submit button */
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+
+
+.footer-parent {
+    position: absolute;
+    top: 700px;
+    height: 431px;
+    width: 100%;
+    overflow: hidden;
+    color: var(--color-white);
+    font-family: var(--font-franklin-gothic-demi);
+}
